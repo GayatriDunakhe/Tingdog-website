@@ -136,3 +136,50 @@ p{
 	text-align: center;
 }
 
+
+/* cta and footer  */
+
+#cta{
+	padding: 7% 15%;
+	background-color: #ff4c68;
+	color: #fff;
+	text-align: center;
+}
+
+#cta h3{
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 3.5rem;
+}
+
+#cta button{
+	margin-top: 5%;
+}
+
+#footer{
+	background-color: white;
+	text-align: center;
+	margin: 5%;
+}
+
+#footer i{
+	padding: 1%;
+}
+
+#footer p {
+	margin-top: 1%;
+}
+
+/* responsive */
+
+@media (max-width: 1074px){
+
+	#title{
+		text-align: center;
+	}
+
+	.title-img{
+		width: 50%;
+		transform: rotate(0);
+		position: static;
+	}
+}
